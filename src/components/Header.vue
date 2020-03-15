@@ -10,10 +10,22 @@ export default {};
 .header {
   font-family: 'Azonix', sans-serif;
   font-size: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   word-wrap: break-word;
+  animation: show 0.8s ease-in-out;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-10rem);
+  }
+
+  50% {
+    transform: translateY(2rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 </style>
