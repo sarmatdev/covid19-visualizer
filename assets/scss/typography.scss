@@ -1,0 +1,29 @@
+.header {
+  animation: show 0.8s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(2rem);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
