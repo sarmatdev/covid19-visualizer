@@ -1,0 +1,25 @@
+@keyframes drop {
+  0% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(2rem);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
